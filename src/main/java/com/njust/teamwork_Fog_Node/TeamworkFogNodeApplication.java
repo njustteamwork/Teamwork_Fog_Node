@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TeamworkServerApplication {
+public class TeamworkFogNodeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TeamworkServerApplication.class, args);
+		SpringApplication.run(TeamworkFogNodeApplication.class, args);
 	}
 
 }
