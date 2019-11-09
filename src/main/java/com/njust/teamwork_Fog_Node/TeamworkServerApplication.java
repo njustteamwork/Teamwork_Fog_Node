@@ -1,4 +1,4 @@
-package com.njust.teamwork_server;
+package com.njust.teamwork_Fog_Node;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

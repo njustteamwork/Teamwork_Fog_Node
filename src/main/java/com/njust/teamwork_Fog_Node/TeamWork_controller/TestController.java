@@ -1,4 +1,4 @@
-package com.njust.teamwork_server.TeamWork_controller;
+package com.njust.teamwork_Fog_Node.TeamWork_controller;
 
 import org.springframework.web.bind.annotation.*;
 

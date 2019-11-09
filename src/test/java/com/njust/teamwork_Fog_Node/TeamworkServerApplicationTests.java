@@ -1,4 +1,4 @@
-package com.njust.teamwork_server;
+package com.njust.teamwork_Fog_Node;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
