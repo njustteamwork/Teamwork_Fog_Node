@@ -17,10 +17,5 @@ public class TestController {
         return "hello " + params;
     }
 
-    @PostMapping("/postData")
-    public String postData(@RequestParam int data){
-        System.out.println(data);
-        return "你把data传回来就行";
-    }
 }
 
