@@ -62,14 +62,16 @@ public class PaillierPublicKey {
         }
     }
 
-    public String readFromFile() throws Exception{
+    public static PaillierPublicKey readFromFile() throws Exception{
         try{
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream("PAILLIER_PUBLIC_KEY_FILE"));
             String jsonPublicKey = ois.readObject().toString();
-            return jsonPublicKey;
+            Gson gson = new Gson();
+            PaillierPublicKey paillierPublicKey = gson.fromJson(jsonPublicKey, PaillierPublicKey.class);
+            return paillierPublicKey;
         }catch (Exception e){
             System.out.println("读取错误");
-            return "Exception";
+            return null;
         }
     }
 }

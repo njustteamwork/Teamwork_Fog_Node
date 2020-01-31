@@ -1,4 +1,4 @@
-package dataprocessor;
+package com.njust.teamwork_Fog_Node.dataprocessor;
 
 import com.google.gson.Gson;
 

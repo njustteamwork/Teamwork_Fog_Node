@@ -30,3 +30,4 @@ out/
 
 ### VS Code ###
 .vscode/
+/PAILLIER_PUBLIC_KEY_FILE
