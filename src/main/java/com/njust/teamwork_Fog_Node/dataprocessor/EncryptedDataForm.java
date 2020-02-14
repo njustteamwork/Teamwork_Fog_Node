@@ -24,6 +24,36 @@ public class EncryptedDataForm {
         return gson.fromJson(encryptedData, EncryptedDataForm.class);
     }
 
+    //    聚合用
+    public String getUsername(){
+        return username;
+    }
+
+    public BigInteger getUserTemperature() {
+        return userTemperature;
+    }
+
+    public BigInteger getUserHeartRate() {
+        return userHeartRate;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    //    测试用
+    public EncryptedDataForm(Date date,String username){
+        this.date = date;
+        this.username = username;
+    }
+
+    public void setUserHeartRate(String userHeartRate) {
+        this.userHeartRate = new BigInteger(userHeartRate);
+    }
+
+    public void setUserTemperature(String userTemperature) {
+        this.userTemperature = new BigInteger(userTemperature);
+    }
 }
 
 

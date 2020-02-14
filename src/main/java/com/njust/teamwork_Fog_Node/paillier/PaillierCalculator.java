@@ -3,7 +3,7 @@ package com.njust.teamwork_Fog_Node.paillier;
 import java.math.BigInteger;
 
 public class PaillierCalculator {
-    private BigInteger nSquare;
+    private  BigInteger nSquare;
 
     public  PaillierCalculator(PaillierPublicKey publicKey){
         nSquare = publicKey.getNSquare();

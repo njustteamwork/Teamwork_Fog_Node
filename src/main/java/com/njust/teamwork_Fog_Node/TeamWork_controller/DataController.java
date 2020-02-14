@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class DataController {
 
     @PostMapping("/postEData")
-    public String postEData(@RequestParam String myEncryptedData){
-        System.out.println(myEncryptedData);
-        return myEncryptedData;
+    public String postEData(@RequestParam String data){
+        System.out.println(data);
+        return data;
     }
 
 }
