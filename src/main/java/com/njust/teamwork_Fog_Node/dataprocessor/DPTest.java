@@ -64,7 +64,7 @@ public class DPTest {
 
 
         EDataAggregator test = new EDataAggregator();
-        test.eDataAggregator(eDataList,paillierCalculator);
+        List<ResultData> resultDataList = test.eDataAggregator(eDataList,paillierCalculator);
 
 
 
